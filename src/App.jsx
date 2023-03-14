@@ -6,7 +6,7 @@ class App extends Component {
         return (
             <div className="box">
                 Hello , World
-                <span>i,am jack</span>
+                <span>i,am jack  im a boy</span>
             </div>
         );
     }

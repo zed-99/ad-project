@@ -5,6 +5,11 @@
     "extends": [
         "airbnb"
     ],
+    "parser": "@typescript-eslint/parser",
+    "plugins": [
+        "react",
+        "@typescript-eslint"
+    ],
     "rules": {
         "indent": [
             "error",
@@ -13,6 +18,19 @@
         "react/jsx-indent": [
             "error",
             4
-        ]
+        ],
+        "react/jsx-filename-extension": [
+            "error",
+            {
+                "extensions": [
+                    ".js",
+                    ".jsx",
+                    ".ts",
+                    ".tsx"
+                ]
+            }
+        ],
+        "no-unused-vars": "warn",
+        "no-use-before-define": "off"
     }
 }
